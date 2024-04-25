@@ -1,0 +1,8 @@
+.sidebar-container {
+    flex: 1;
+}
+
+.components-container {
+    flex: 3;
+    margin-left: 10px;
+}

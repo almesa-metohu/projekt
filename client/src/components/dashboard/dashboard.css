@@ -1,0 +1,10 @@
+.dashboard-container {
+    display: flex;
+    min-height: 85vh;
+    margin: 10px;
+    border: none;
+}
+
+.dashboard-content {
+    flex: 4;
+}

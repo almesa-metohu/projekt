@@ -1,0 +1,20 @@
+.hotels-container {
+    margin: 0;
+    padding: 25px 70px 0 0;
+    border: none;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.table th {
+    background-color: #f2efeb;
+    color: #1D5C63;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

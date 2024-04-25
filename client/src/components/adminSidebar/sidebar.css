@@ -1,0 +1,32 @@
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-container {
+    display: flex;
+    height: 500px;
+    margin: 10px;
+    border: none;
+}
+
+.sidebar-content {
+    background-color: #f2efeb;
+    border-radius: 10px;
+    width: 350px;
+
+}
+
+.sidebar-content .nav-link.active {
+    background-color: #417D7A;
+    color: #f2efeb;
+    width: 100%;
+}
+
+.sidebar-content .btn {
+    background-color: #1D5C63;
+    color: #f2efeb
+}

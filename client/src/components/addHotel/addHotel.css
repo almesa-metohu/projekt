@@ -1,0 +1,62 @@
+.add-hotel {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1050;
+}
+
+.rContainer {
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    width: auto;
+    max-width: 800px;
+}
+
+.rClose {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #1D5C63;
+    font-size: 24px;
+}
+
+.rButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #417D7A;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.rContainer input,
+.rContainer textarea,
+.rContainer select {
+    border-radius: 5px;
+    border: 1px solid #ccc; 
+    padding: 10px;
+    width: 100%; 
+}
+
+.label-input-container {
+    margin-bottom: 15px; 
+}
+
+.label-input-container label {
+    color: #1D5C63;
+    font-weight: bold;
+    margin-bottom: 5px; 
+}

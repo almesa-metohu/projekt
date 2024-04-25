@@ -1,0 +1,66 @@
+.navbar {
+    height: 80px;
+    background-color: #1D5C63;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.navbarAdmin {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    border-bottom: 1px solid #1D5C63;
+
+}
+
+.navContainer {
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navContainerAdmin {
+    width: 100%;
+    max-width: 1024px;
+    color: #1D5C63;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 700;
+}
+
+.navButton {
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #1D5C63;
+}
+
+.photoAvatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.userName {
+    padding: 10px 0 0 0;
+    color: white;
+}
+
+.userNameAdmin {
+    padding: 10px 0 0 0;
+    color: #1D5C63;
+}
+
+.userButton {
+    padding: 0 3px 0 0;
+}
