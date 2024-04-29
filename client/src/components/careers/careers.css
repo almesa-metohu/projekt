@@ -1,0 +1,34 @@
+.careers-header {
+    background-color: #417D7A;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.careers-content, .careers-benefits {
+    padding: 0 100px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
+h3 {
+    color: #2e5f5d;
+}
+
+ul {
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 0 100px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #417D7A;
+}
